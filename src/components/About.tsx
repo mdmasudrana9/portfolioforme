@@ -12,18 +12,6 @@ const About = ({ isDarkMode }: AboutProps) => {
       <h2 className="text-center text-5xl font-ovo">About</h2>
 
       <div className="flex w-full flex-col xl:flex-row items-center gap-20 my-20 ">
-        {/* <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.6 }}
-          className="w-64 sm:w-80 rounded-3xl max-w-none"
-        >
-          <Image
-            alt=""
-            src={assets.masudrana}
-            className="w-full h-[350px] md:h-[400px] xl:h-[450px] rounded-3xl"
-          />
-        </motion.div> */}
         <div className="flex-1">
           <p className="mb-10 md:max-w-6xl w-full font-ovo">
             I am an experienced Fullstack Developer with over a decade of
